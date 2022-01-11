@@ -1,0 +1,5 @@
+numpy
+pandas
+requests
+scikit-learn
+git+git://github.com/navefr/ExKMC@master#egg=ExKMC
