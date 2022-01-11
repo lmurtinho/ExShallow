@@ -1,2 +1,5 @@
 .DS_Store
 __pycache__/
+lib_best_cut.so
+lib_best_cut_shallow.so
+results/
