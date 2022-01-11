@@ -194,7 +194,7 @@ def test_shallow(data, km, results, k, seed, max_depth, min_depth, ratio_type,
                                                             treat_redundances=treat_redundances)
     if verbose:
 
-        print("{} done in {:.2f} seconds, score = {:.4f}".format(name, secs, score))
+        print("{} with factor {:.2f} done in {:.2f} seconds, score = {:.4f}".format(name, height_factor, secs, score))
         print("Max depth = {}, average depth = {:.2f}, weighted depth = {:.2f}, weighted cuts = {:.2f}".format(max_depth, avg_depth,
                                                                                        wgtd_depth, wgtd_cuts))
         print()
